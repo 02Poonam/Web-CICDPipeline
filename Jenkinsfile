@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKER_CREDENTIALS_ID = 'poonam'
-        DOCKER_REPO = 'poonam02/java-app-docker'
+        DOCKER_REPO = 'poonam02/java-docker-ansible'
     }
     stages {
         stage('Clone Repository') {
